@@ -1,6 +1,13 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
 
 
 /* spolecne */
@@ -8,7 +15,9 @@ body {
     font: 16px/1.5 sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: #b92e81;
 }
 
@@ -27,8 +36,13 @@ h1, h2, h3 {
 */
 
 
-.sedy    { background-color: #e5e5e5; }
-.zluty   { background-color: #ffffd0; }
+.sedy {
+    background-color: #e5e5e5;
+}
+
+.zluty {
+    background-color: #ffffd0;
+}
 
 .blok {
     outline: 1px dashed black;
@@ -57,5 +71,3 @@ h1, h2, h3 {
 .treti {
     background-color: #e74c3c;
 }
-
-
